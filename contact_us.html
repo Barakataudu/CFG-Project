@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SOBAMA - Organic Healthy Food</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12 flex header__content">
+            <a href="#" class="logo header__logo">
+              <img src="img/logo.png" alt="SOBAMA Restaurant Logo" />
+            </a>
+            <nav class="nav flex header__nav">
+              <ul class="list-reset nav__list flex">
+                <li class="nav__item">
+                  <a target="_self" class="nav__link" href="index.html">Home</a>
+                </li>
+                <li class="nav__item">
+                  <a target="_self" class="nav__link" href="./about_us.html">About Us</a>
+                </li>
+                <li class="nav__item">
+                  <a target="_self" class="nav__link" href="./online_booking.html"
+                    >Online Reservation</a
+                  >
+                </li>
+                <li class="nav__item">
+                  <a target="_self" class="nav__link" href="./contact_us.html">Contact Us</a>
+                </li>
+              </ul>
+            </nav>
+            <button class="btn-reset burger">
+              <span class="burger__line">
+              </span>
+              <span class="burger__line">
+              </span>
+              <span class="burger__line">
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12 hero section">
+            <div data-slider-id="slider-1" class="swiper hero__swiper">
+              <div class="swiper-wrapper">
+                <div
+                  class="swiper-slide hero-slide-1"
+                  role="presentation"
+                ></div>
+                <div
+                  class="swiper-slide hero-slide-2"
+                  role="presentation"
+                ></div>
+                <div
+                  class="swiper-slide hero-slide-3"
+                  role="presentation"
+                ></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div
+            class="col-lg-12 col-md-12 col-sm-12 w-50 mx-auto contacts section"
+          >
+            <h1 class="contacts__header">Contact us</h1>
+            <p class="contacts__phone">
+              <img src="./img/telephone.png" alt="Phone" style="height: 35px" />
+              <a class="contacts__link" href="tel:+1123-456-7890"
+                >123-456-7890</a
+              >
+            </p>
+            <p class="contacts__email">
+              <img src="./img/email.png" alt="Email" style="height: 35px" />
+              <a class="contacts__link" href="mailto: sobama@group4.com"
+                >sobama@group4.com</a
+              >
+            </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12 w-50 mx-auto form section">
+            <h2 class="form__header">Leave your message</h2>
+            <form
+              aria-label="Форма обратной связи"
+              action="https://jsonplaceholder.typicode.com/posts"
+              method="post"
+              class="form flex"
+            >
+              <input
+                aria-label="Write your name"
+                class="form__input"
+                type="text"
+                name="name"
+                placeholder="Name*"
+                required
+              />
+              <input
+                aria-label="Write your email"
+                class="form__input"
+                type="email"
+                name="email"
+                placeholder="Email*"
+                required
+              />
+              <textarea
+                aria-label="Write your message"
+                class="form__textarea"
+                name="comment"
+                placeholder="Your message"
+              ></textarea>
+              <div class="form__wrapper flex">
+                <button
+                  aria-label="Send message"
+                  class="btn btn-reset form__btn"
+                >
+                  Send message
+                </button>
+                <label
+                  class="form__check"
+                  aria-label="Subscribe to  company's emails"
+                >
+                  <input type="checkbox" required /> I would like to receive
+                  news about SOBAMA
+                </label>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12 w-50 mx-auto hours section">
+            <h2 class="hours__header">Opening hours</h2>
+            <p class="hours__descr">Monday - Thursday: 10:00 - 19:00</p>
+            <p class="hours__descr">Friday - Saturday: 12:00 - 22:00</p>
+            <p class="hours__descr">Sunday: closed</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div
+            class="col-lg-12 col-md-12 col-sm-12 w-50 mx-auto address section"
+          >
+            <h2 class="address__header">Where to find us</h2>
+            <p class="address__descr">62780 Cucq</p>
+            <div class="address__map">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10155.807300443941!2d1.564292524426424!3d50.479240560677454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47dddb0ec2e9927b%3A0xf99f0ac757b92259!2sPlage%20de%20Stella!5e0!3m2!1sru!2sch!4v1688730166515!5m2!1sru!2sch"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="col-lg-12 col-md-12 col-sm-12 footer">
+        <p class="footer__copy">&copy; SOBAMA - All rights reserved</p>
+        <span class="footer__policy">
+          <a href="#" class="footer__link"> Terms of Service </a>
+          <a href="#" class="footer__link"> Privacy Policy </a>
+        </span>
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12 w-50 mx-auto">
+            <ul class="footer__social list-reset flex">
+              <li class="footer__item">
+                <a href="#" class="footer__social-link"> 
+                  <img src="./img/twitter.png" alt="twitter link" style="height: 35px;" > </a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__social-link"> 
+                  <img src="./img/facebook.png" alt="facebook link" style="height: 35px;" > </a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__social-link"> 
+                  <img src="./img/instagram.png" alt="instagram link" style="height: 35px;" > </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
